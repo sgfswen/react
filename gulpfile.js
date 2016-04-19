@@ -14,7 +14,6 @@ gulp.task('concat',['sass'],function () {
             .pipe(gulp.dest('dist/build'))
 })
 
-gulp.task('default',function () {
-  gulp.run('sass');
+gulp.task('default',['concat'],function () {
   gulp.watch('components/*/*.scss',['concat'])
 })
