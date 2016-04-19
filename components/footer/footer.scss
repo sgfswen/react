@@ -1,0 +1,15 @@
+$color:red;
+$content:'xiadd';
+
+
+@mixin foo {
+  color: $color;
+  background: red;
+}
+
+h1{
+  @include foo;
+}
+h1::before{
+  content: $content
+}

@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "build": "gulp"
   },
   "author": "",
   "license": "ISC",
@@ -17,6 +18,10 @@
     "babel-preset-react": "^6.5.0",
     "babel-preset-stage-0": "^6.5.0",
     "css-loader": "^0.23.1",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-postcss": "^6.1.0",
+    "gulp-sass": "^2.2.0",
     "jquery": "^2.2.3",
     "marked": "^0.3.5",
     "react": "^15.0.1",
